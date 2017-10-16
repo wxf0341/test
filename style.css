@@ -1,0 +1,185 @@
+/*
+    created by Dr.WEI THU 2016
+*/
+
+body {
+    color: #333333;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.42857;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.row1 {
+    margin-bottom: 5px;
+    height: 50px;
+    width: 1200px;
+}
+
+.row1 .left {
+    float: left;
+    width: 200px;
+    height: 50px;
+}
+
+.row1 .mainpart {
+    margin-left: 200px;
+    height: 50px;;
+}
+
+.row1 .mainpart .leftpart {
+    width: 800px;
+    height: 50px;
+    float: left;
+}
+
+.row1 .mainpart .rightpart {
+    width: 200px;
+    height: 50px;
+    float: left;
+}
+
+.row1 .mainpart .leftpart .form-search {
+    text-align:center;
+    line-height: 50px;
+}
+.row1 .mainpart .rightpart .regist{
+    text-align:center;
+    line-height: 20px;
+    list-style: none;
+    float: right;
+}
+
+.row1 .mainpart .rightpart .regist li {
+    margin-right: 30px;
+    float:left;
+}
+
+.row2 {
+    width: 1200px;
+    height: 400px;
+}
+
+.row3 {
+    width: 1200px;
+    height: 50px;
+    background-color: #ffe355;
+}
+
+.row3 ul {
+    padding: 0;
+    height: 50px;
+    list-style: none;
+}
+
+.row3 .menu .menuli {
+    width: 14%;
+    float: left;
+    text-align:center;
+    line-height: 50px;
+}
+
+.row4 {
+    width: 1200px;
+    height: 300px;
+    background-color: #cdeaff;
+}
+
+.row4 .row4left {
+    width: 900px;
+    height: 300px;
+    float: left;
+    background-color: #d2ecc1;
+}
+
+.row4 .row4right {
+    width: 300px;
+    height: 300px;
+    float: left;
+    background-color: #b295ec;
+}
+
+.row5 {
+    width: 1200px;
+    height: 300px;
+    background-color: #ffc28e;
+}
+
+.lefttable {
+    text-align:center;
+    background-color: #ec8340;
+}
+.row5 .row5left {
+    width: 900px;
+    height: 300px;
+    float: left;
+    background-color: #c1e4ec;
+}
+
+.row5 .row5right {
+    width: 300px;
+    height: 300px;
+    float: left;
+    background-color: #bbecb8;
+}
+
+.row6 {
+    width: 1200px;
+    height: 300px;
+    background-color: #ff7e5f;
+}
+
+.row6 .row6left {
+    width: 900px;
+    height: 300px;
+    float: left;
+    background-color: #89deec;
+}
+
+.row6 .row6right {
+    width: 300px;
+    height: 300px;
+    float: left;
+    background-color: #cdeaff;
+}
+
+.row7 {
+    width: 1200px;
+    height: 300px;
+    background-color: #f1ff66;
+}
+
+.row7 .row7left {
+    width: 900px;
+    height: 300px;
+    float: left;
+    background-color: #ffa0be;
+}
+
+.row7 .row7right {
+    width: 300px;
+    height: 300px;
+    float: left;
+    background-color: #94c4cc;
+}
+
+.footer {
+    width: 1200px;
+    height: 100px;
+    background-color: rgba(47, 53, 88, 0.22);
+    text-align:center;
+    line-height: 100px;
+}
+
+a {
+    color: #333333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff0c33;
+}
